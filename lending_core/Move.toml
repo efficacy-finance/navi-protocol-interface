@@ -1,6 +1,7 @@
 [package]
 name = "lending_core"
 version = "0.0.1"
+published-at = "0xdd01308cf0b874407dcfcae8d769090421111567954139083c776261c5f0e2b0"
 
 [dependencies.Sui]
 git = "https://github.com/MystenLabs/sui.git"
@@ -18,4 +19,4 @@ local = "../utils"
 
 [addresses]
 sui = "0x2"
-lending_core = "0x0"
+lending_core = "0xdd01308cf0b874407dcfcae8d769090421111567954139083c776261c5f0e2b0"

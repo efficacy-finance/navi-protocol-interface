@@ -2,14 +2,11 @@
 
 [move]
 version = 0
-manifest_digest = "B52B37B7DEF8386821666462B22EB9D9B029E5472E4C2A619D6BC402ED43F6AF"
-deps_digest = "F9B494B64F0615AED0E98FC12A85B85ECD2BC5185C22D30E7F67786BB52E507C"
+manifest_digest = "75BDC0786EA493474257858874664194C00B33BF778221A06005B2212D59DD2E"
+deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
 
 dependencies = [
   { name = "Sui" },
-  { name = "math" },
-  { name = "oracle" },
-  { name = "utils" },
 ]
 
 [[move.package]]
@@ -22,30 +19,6 @@ source = { git = "https://github.com/MystenLabs/sui.git", rev = "mainnet", subdi
 
 dependencies = [
   { name = "MoveStdlib" },
-]
-
-[[move.package]]
-name = "math"
-source = { local = "../math" }
-
-dependencies = [
-  { name = "Sui" },
-]
-
-[[move.package]]
-name = "oracle"
-source = { local = "../oracle" }
-
-dependencies = [
-  { name = "Sui" },
-]
-
-[[move.package]]
-name = "utils"
-source = { local = "../utils" }
-
-dependencies = [
-  { name = "Sui" },
 ]
 
 [move.toolchain-version]
